@@ -2,9 +2,6 @@ module ReinterpretNumericTypes
 
 import Base: unbox, box, reinterpret
 
-include("reinterpretUnsigned.jl")
-include("reinterpretSigned.jl")
-include("reinterpretFloat.jl")
 
 for (utype,itype,ftype) in ( (:UInt16, :Int16, :Float16), 
                              (:UInt32, :Int32, :Float32), 
@@ -39,6 +36,5 @@ for (utype,itype) in ((:UInt8, :Int8), (:UInt128, :Int128))
     end
 end
 
-end # module
 
 end # ReinterpetNumericTypes
