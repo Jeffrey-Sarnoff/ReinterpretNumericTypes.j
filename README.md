@@ -1,5 +1,9 @@
 ## ReinterpretNumericTypes.jl
-extends reinterpret to work with targets that are abstract numeric types 
+###### extends reinterpret to work with targets that are abstract numeric types 
+
+```ruby
+                                                       Jeffrey Sarnoff © 2016-Mar-22 at New York
+```
 
 ####Use
 ```julia
